@@ -69,7 +69,7 @@ dom('#btnCreate').onclick = function () {
         clearForm()
     })
     promise.catch(function (err) {
-        alert(err)
+       console.log(err);
     })
 }
 
